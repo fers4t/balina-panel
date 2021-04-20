@@ -74,8 +74,13 @@ if(isset($options['bl_panel_admin_url_field'])) {
             $htaccess = ABSPATH . ".htaccess";
 
             $lines = array();
-            $lines[] = "# Block WordPress wp-login.php requests
+            $lines[] =
+            "# Block WordPress wp-login.php requests
                 <Files wp-login.php>
+                order allow,deny
+                Deny from all
+                </Files>
+                <Files wp_login_backup_bl.php>
                 order allow,deny
                 Deny from all
                 </Files>
