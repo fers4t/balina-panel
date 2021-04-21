@@ -9,7 +9,7 @@ if (isset($options['bl_panel_old_admin_left_image_field']) && !empty($options['b
 ?>
         <div id="balina_panel">
             <div id="left_image">
-                <img src="<?php echo get_home_url() . $left_image ?>" alt="">
+                <img src="<?php echo $left_image ?>" alt="">
             </div>
 
         <?php

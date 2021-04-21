@@ -74,7 +74,7 @@ function bl_panel_settings_init()
         __('Login Brand Image URL', 'Theme Settings'),
         'bl_panel_old_admin_image_field_render',
         'bl_admin_settings',
-        'fers4t_bl_panel_pluginPage_section',
+        'fers4t_bl_panel_pluginPage_section'
     );
 
     add_settings_field(
@@ -82,7 +82,7 @@ function bl_panel_settings_init()
         __('Login Left Big Image URL', 'Theme Settings'),
         'bl_panel_old_admin_left_image_field_render',
         'bl_admin_settings',
-        'fers4t_bl_panel_pluginPage_section',
+        'fers4t_bl_panel_pluginPage_section'
     );
 
     add_settings_field(
@@ -90,7 +90,7 @@ function bl_panel_settings_init()
         __('Custom Panel CSS', 'Theme Settings'),
         'bl_panel_old_admin_color_field_render',
         'bl_admin_settings',
-        'fers4t_bl_panel_pluginPage_section',
+        'fers4t_bl_panel_pluginPage_section'
     );
 }
 
