@@ -68,6 +68,23 @@ if (isset($options['bl_panel_old_admin_left_image_field']) && !empty($options['b
                     flex-direction: column;
                 }
 
+                body {
+                    background: white !important;
+                }
+
+                .login input[type=password],
+                .login input[type=text] {
+                    background: #f4f7fa !important;
+                }
+
+                input#wp-submit {
+                    background: #b1566b !important;
+                }
+
+                input#wp-submit:hover {
+                    background: #984a5c !important;
+                }
+
                 form input {
                     width: 100%;
                     border: 1px solid #ced4da !important;
